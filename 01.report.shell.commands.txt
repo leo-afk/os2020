@@ -1,0 +1,26 @@
+~$ who
+vu       tty7         2020-04-24 04:25 (:0)
+~$ whoami
+vu
+~$ id
+uid=1000(vu) gid=1000(vu) groups=1000(vu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+~$ last
+vu       tty7         :0               Fri Apr 24 04:25    gone - no logout
+reboot   system boot  4.15.0-45-generi Fri Apr 24 04:25   still running
+vu       tty7         :0               Thu Apr 23 23:27 - crash  (04:57)
+reboot   system boot  4.15.0-45-generi Thu Apr 23 23:27   still running
+
+wtmp begins Thu Apr 23 23:27:22 2020
+ arch
+x86_64
+~$ uname 
+Linux
+~$ uptime
+ 22:26:27 up  1:01,  1 user,  load average: 0.39, 0.34, 0.23
+~$ hostname
+vu-HP-EliteBook-840-G1
+ ~$ w
+ 22:32:49 up  1:07,  1 user,  load average: 0.26, 0.27, 0.23
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+vu       tty7     :0               04:25     ?    49.09s  0.21s /sbin/upstart -
+
