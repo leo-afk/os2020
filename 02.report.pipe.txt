@@ -1,0 +1,11 @@
+~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        7966572     1263156     5453656      190760     1249760     6221096
+Swap:        999420           0      999420
+~$ find
+42
+~$ grep ^$ /proc/cpuinfo | wc -l
+4
+~$ wc -l /etc/passwd
+40 /etc/passwd
+
